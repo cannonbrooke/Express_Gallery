@@ -14,7 +14,7 @@ app.set('views', './views');
 app.set('view engine', 'jade');
 
 app.get('/', function (req, res){
-  res.render('new');
+  res.render('index');
 });
 
 app.listen(3000, function(){

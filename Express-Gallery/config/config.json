@@ -1,11 +1,26 @@
+
 {
-  "port": 8080,
+  "port": 3000,
 
   "development": {
-    "username": "Cannon",
+    "username": "cannonbrooke",
     "password": null,
     "database": "express_gallery",
     "host": "127.0.0.1",
     "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
